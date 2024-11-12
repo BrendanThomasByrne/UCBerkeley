@@ -1,7 +1,6 @@
 
 # UC Berkeley - Professional Certificate in Machine Learning and Artificial Intelligence
-
-Practical Application Assignment 5.1  
+Practical Application 17.1  
 
 
 ## 🔗 Links
