@@ -9,37 +9,29 @@ Practical Application Assignment 5.1
 
 
 
-## Lessons Learned
+## Business Problem
+In this third practical application assignment, my goal is to compare the performance of the classifiers (k-nearest neighbors, logistic regression, decision trees, and support vector machines) I encountered in this section of the program. I will use a dataset related to the marketing of bank products over the telephone.
 
-Overall 41% of those who received bar coupons accepted them.
+The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
-The acceptance rate for those who went to a bar 3 or fewer times a month was: 37%
+The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
 
-The acceptance rate for those who went to a bar more than 3 times a month was: 77% This appears to be a significant increase over those who went to a bar 3 or fewer times a month.
+Citation for data: https://archive.ics.uci.edu/dataset/222/bank+marketing Moro, S., Rita, P., & Cortez, P. (2014). Bank Marketing [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5K306.
 
-Not surprising that those who go to bars more frequently would use the coupons significantly more.
+## Findings:
+Previous positive results are the best indicator of potential success
 
-Acceptance rate for drivers who go to a bar more than once a month and are over the age of 25 is 67%
+Timing was of obvious importance and best and worst performing time periods should be an important consideration.
 
-Acceptance rate for drivers who go to a bar less than once a month or are under the age of 25 (All other drivers) is 29%. It appears that frequency may be more important than age.
+Other financial indicators such as an existing home loan, existance of a personal loan, and average balance are good indicators to filter the targets.
 
-Frequency of visits to a bar has a large impact.
+Demographics such as age and job can be used to improve targettuing results but are of lesser importance than the other factors.
 
-71% for drivers who go to bars more than once a month and had passengers that were not a kid and had occupations other than farming, fishing, or forestry
+## Next Steps and Recommendations:
 
-It appears the most significant factor is people who go to bars more than once a month. However, those who go more than 8 times a month don't seem to need the coupons as much.
+Business Recommendations: Focus on past success and identify the optimal period to wait before contacting to make the offer.
 
+Operational considerations: Schedule campaigns to maximize efficiency by focussing on high probability time periods and avoiding bad months. Campaigns can be scheduled to utilize the most effective times of year and eliminate the bad periods.
 
-When looking at the effect of income on acceptance of coupons:
-
-As might be expected, those with higher incomes feel less of the need to use a coupon. This changes however for the highest income group. This indicates that wealthy people take advantage of savings opportunities more than those who are well off and feel they don't need the financial assitance. Think of the wealthy miser.
-
-Gender has the expected impact with males accepting the coupon more than females. However, I don't notice any other correlation impacted by income other than a spike in women in the 37499 category, which is likely due to age which we know has a strong influence. The 74999 acceptance grouping for men is a little higher than may have been expected.
-
-Those travelling with a partner or kids have a significant decreased ratio of accepted to unaccepted than those travelling alone or with a friend. However, they still exhibit the income curve that we have seen with regards to overall acceptance.
-
-Conclusions:
-
-Overall, income seems to have a consistent curve. While accepted to unaccepted ratio results are impacted by other factors such as gender and passengers, the accepted curve itself is pretty distinct and relatively unimpacted by other variables. That is to say the income curve still exists with similar ratios based on income regardless of the ratio of accepted to unaccepted. That said, the ratio of accepted to unnacepted is much higher for those under 62500 in income or over 100,000.
-
+The ROC curve can be used to determine how many people to assign to these campaigns and who should be on the call list. AI can clearly identify and rate the candidates with good efficiency. The fact that the ROC curve shows that an 80/20 split on precision can be had shows that even with low acceptance rates, relatively high precision can be acquired with some data targetting. It wiull become a factor of cost benefit analysis to determine how many calls to make and where the break point should be on assigning staff to conduct these campaigns.
 
