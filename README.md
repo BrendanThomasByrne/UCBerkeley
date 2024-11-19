@@ -1,45 +1,24 @@
 
 # UC Berkeley - Professional Certificate in Machine Learning and Artificial Intelligence
 
-Practical Application Assignment 5.1  
+Capstone Project
 
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/BrendanThomasByrne/UCBerkeley.git)
 
+## Question
+How does the combination of water level and rainfall affect the change in water level?
 
+## Results
 
-## Lessons Learned
+The resulting predictive graphs confirm my theories.  
 
-Overall 41% of those who received bar coupons accepted them.
+Water levels are most impacted by rain 24 hours later.  This is apparent from looking at the data and seeing the max value for water level comes 24 hours after the max precipitation.  The resulting AMA model was therefore built to evaluate predicted water levels 24 hours later than what is known.
+ 
+Water level rises quicker at lower water levels given the same amount of rainfall.  We can also relatively accurately estimate what the water level will be 24 hours ahead of existing levels based on the rainfall we get or predict to get.  The models are very good at predicting water levels if there is no precipitation.  This still involves change as the river runs off into the ocean and levels will drop down to 5 feet with no rain.  It drops faster at higher levels as expected.
 
-The acceptance rate for those who went to a bar 3 or fewer times a month was: 37%
+The fact that the predicted model seems to confirm the theorized behavior provides confidence in the model.
 
-The acceptance rate for those who went to a bar more than 3 times a month was: 77% This appears to be a significant increase over those who went to a bar 3 or fewer times a month.
-
-Not surprising that those who go to bars more frequently would use the coupons significantly more.
-
-Acceptance rate for drivers who go to a bar more than once a month and are over the age of 25 is 67%
-
-Acceptance rate for drivers who go to a bar less than once a month or are under the age of 25 (All other drivers) is 29%. It appears that frequency may be more important than age.
-
-Frequency of visits to a bar has a large impact.
-
-71% for drivers who go to bars more than once a month and had passengers that were not a kid and had occupations other than farming, fishing, or forestry
-
-It appears the most significant factor is people who go to bars more than once a month. However, those who go more than 8 times a month don't seem to need the coupons as much.
-
-
-When looking at the effect of income on acceptance of coupons:
-
-As might be expected, those with higher incomes feel less of the need to use a coupon. This changes however for the highest income group. This indicates that wealthy people take advantage of savings opportunities more than those who are well off and feel they don't need the financial assitance. Think of the wealthy miser.
-
-Gender has the expected impact with males accepting the coupon more than females. However, I don't notice any other correlation impacted by income other than a spike in women in the 37499 category, which is likely due to age which we know has a strong influence. The 74999 acceptance grouping for men is a little higher than may have been expected.
-
-Those travelling with a partner or kids have a significant decreased ratio of accepted to unaccepted than those travelling alone or with a friend. However, they still exhibit the income curve that we have seen with regards to overall acceptance.
-
-Conclusions:
-
-Overall, income seems to have a consistent curve. While accepted to unaccepted ratio results are impacted by other factors such as gender and passengers, the accepted curve itself is pretty distinct and relatively unimpacted by other variables. That is to say the income curve still exists with similar ratios based on income regardless of the ratio of accepted to unaccepted. That said, the ratio of accepted to unnacepted is much higher for those under 62500 in income or over 100,000.
-
+The ARMA model is a bit overfit and I imagine improvements can be made.
 
