@@ -15,14 +15,23 @@ How does the combination of current water level and rainfall affect the change i
 Correlation between rainfall and water level rising:
 Correlations by lag (days):
 Lag 0 days: 0.435
+
 Lag 1 days: 0.625
+
 Lag 2 days: 0.618
+
 Lag 3 days: 0.517
+
 Lag 4 days: 0.431
+
 Lag 5 days: 0.374
+
 Lag 6 days: 0.329
+
 Lag 7 days: 0.293
+
 Lag 8 days: 0.268
+
 Lag 9 days: 0.250
 
 This shows that water level height was most impacted by rainfall 1 day earlier.  As expected, earlier rain still affects the water level, but not to the extent that the prior 24 hours does.  This becomes quite apparent with the simple graph of water level and precipitation on the same chart.  From the visual, the human eye can easily see that water levels peak 24 hours after the rain peaks.  While rainfall 10 to 20 days later (notebook has all 20) still has an impact, the river also drains rapidly into the ocean, so rainfall must exceed the drain off for an appreciable gain in height. This helps explain why even with correlated impact 10 days later, the river height peaks in the first 24 hours.
