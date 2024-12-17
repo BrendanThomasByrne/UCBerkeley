@@ -44,8 +44,8 @@ As can be seen, the mean drop in water level increases as water level increases.
 A simple chart validates the simplest of our theories, that more rain indicates higher water level changes.  (See chart below)
 
 Water Level Change by Precipitation (ft):
-               count   mean    std
-Rain_Category                     
+                count  mean    std
+Rain_Category
 No Rain         4550 -0.252  0.893
 Light            284 -0.756  1.759
 Moderate         424 -0.388  2.437
