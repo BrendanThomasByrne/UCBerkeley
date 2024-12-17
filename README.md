@@ -39,13 +39,21 @@ This shows that water level height was most impacted by rainfall 1 day earlier. 
 When looking at water level changes in the absence of rain, I produced the following chart:
 
 Statistics by Water Level Range (all values in feet):
+
             Level_Drop                            WaterLevel
+
                  count   mean    std   min    max       mean
+
 Level_Range                                                 
+
 4.0-7.5ft          911  0.102  0.292 -4.29   2.56      6.481
+
 7.5-8.2ft          921  0.057  0.228 -2.63   1.57      7.995
+
 8.2-8.3ft          940  0.020  0.156 -1.80   1.86      8.269
+
 8.3-8.5ft          886  0.020  0.121 -0.26   1.65      8.434
+
 8.5-45.2ft         892  1.081  1.739 -5.81  18.72     12.168
 
 As can be seen, the mean drop in water level increases as water level increases.  While the chart shows a slight decrease from 4 to 8.5 feet this makes sense.  If the water level is above the minimum, it means we have had some recent rain.  The residual rain will limit the drainage numbers.  But at larger levels (above 8.5 ft) we see a substantial jump in the drain off.  This confirms the working theory and feels strongly supported.
@@ -53,12 +61,19 @@ As can be seen, the mean drop in water level increases as water level increases.
 A simple chart validates the simplest of our theories, that more rain indicates higher water level changes.  (See chart below)
 
 Water Level Change by Precipitation (ft):
+
                 count  mean    std
+
 Rain_Category
+
 No Rain         4550 -0.252  0.893
+
 Light            284 -0.756  1.759
+
 Moderate         424 -0.388  2.437
+
 Heavy            243  0.504  2.651
+
 Very Heavy       410  2.802  4.086
 
 I then attempted to identify the optimum number of prior days' precipitation to use in building a predictive model.  Despite some correlation for the previous days, using more than just the prior day led to worse results. 
